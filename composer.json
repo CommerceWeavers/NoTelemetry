@@ -1,0 +1,20 @@
+{
+  "name": "commerce-weavers/no-sylius-telemetry",
+  "type": "library",
+  "description": "Telemetry deintegration for official Sylius plugins",
+  "license": "MIT",
+  "require": {
+    "php": "^8.0",
+    "symfony/dependency-injection": "^5.4 || ^6.0 || ^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sylius\\Telemetry\\": "src/"
+    }
+  },
+  "replace": {
+    "sylius/telemetry": "*"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "stable"
+}
