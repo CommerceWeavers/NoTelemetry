@@ -1,5 +1,5 @@
 {
-  "name": "commerce-weavers/no-sylius-telemetry",
+  "name": "commerce-weavers/no-telemetry",
   "type": "library",
   "description": "Telemetry deintegration for official Sylius plugins",
   "license": "MIT",
